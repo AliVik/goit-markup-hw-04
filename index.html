@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/commonstyles.css">
+   </head>
+
+<body>
+    <!-- Шапка -->
+        <header class="header-padd">
+            <div class="header-flex container">
+                <nav class="navigation nav-flex">
+                    <a href="./index.html" class="navigation-logo">
+                        <p><span class="logo">Web</span>Studio</p>
+                    </a>
+                    <ul class="nav-list">
+                        <li class="navigation-list list nav-item"><a href="" class="link current">Студия</a></li>
+                        <li class="navigation-list list nav-item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+                        <li class="navigation-list list nav-item"><a href="" class="link">Контакты</a></li>
+                    </ul>
+                </nav>
+                
+                    <ul class="auth-list nav-flex">
+                            <li class="contacts list nav-item"> <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                            <li class="contacts list nav-item"> <a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+                    </ul>
+            </div>
+        </header>
+        <!-- Основной контент страницы Студия-->
+        <main>
+            <!-- Hero -->
+               
+         <!-- delete-class - временный клас для тёмного фона на герое и в подвале, потом удалю) -->
+            
+        <section class="hero delete-class">
+            <h1 class="hero-name">Эффективные решения</br> для вашего бизнеса</h1>
+            <button type="button" class="main-button">Заказать услугу</button>
+        </section>
+            
+            <!-- Наши преимущества -->
+        <section class="section">
+        <div class="container">
+                <h2 class="main-headers hidden">Наши преимущества</h2>
+                <ul class="flex-list">
+                    <li class="list flex-item">
+                        <h3 class="secondary-headers">Внимание к деталям</h3>
+                        <p class="advantages">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    </li>
+                    <li class="list flex-item">
+                        <h3 class="secondary-headers">Пунктуальность</h3>
+                        <p class="advantages">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    </li>
+                    <li class="list flex-item">
+                        <h3 class="secondary-headers">Планирование</h3>
+                        <p class="advantages">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    </li>
+                    <li class="list flex-item">
+                        <h3 class="secondary-headers">Современные технологии</h3>
+                        <p class="advantages">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    </li>
+                </ul>
+            </div>
+            </section>
+            <!-- Чем мы занимаемся -->
+            <section class="section no-padding">
+                <div class="container">
+                    <h2 class="main-headers">Чем мы занимаемся</h2>
+                    <ul class="flex-list">
+                        <li class="list flex-img"><img src="./images/box1.jpg" alt="написание кода" width="370" height="294" class="names-img"></li>
+                        <li class="list flex-img"><img src="./images/box2.jpg" alt="подбор дизайна" width="370" height="294" class="names-img"></li>
+                        <li class="list flex-img"><img src="./images/box3.jpg" alt="согласование цветовой палитры" width="370" height="294" class="names-img"></li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Наша команда -->
+            <section class="section">
+                <div class="container">
+                    <h2 class="main-headers">Наша команда</h2>
+                    <ul class="flex-list">
+                        <li class="names list">
+                            <img src="./images/img.jpg" alt="дизайнер продукта" width="270" height="260" class="names-img"> 
+                            <div class="names-desc">
+                                <h3>Игорь Демьяненко</h3>
+                                <p>Product designer</p>
+                            </div>
+                        </li>
+                        <li class="names list">
+                            <img src="./images/img3.jpg" alt="фронтенд разработчик" width="270" height="260" class="names-img">
+                            <div class="names-desc">
+                                <h3>Ольга Репина</h3>
+                                <p>Frontend Developer</p>
+                            </div>
+                        </li>
+                        <li class="names list">
+                            <img src="./images/img1.jpg" alt="маркетолог" width="270" height="260" class="names-img">
+                            <div class="names-desc">
+                                <h3>Николай Тарасов</h3>
+                                <p>Marketing</p>
+                            </div>
+                        </li>
+                        <li class="names list">
+                            <img src="./images/img2.jpg" alt="дизайнер интерфейса" width="270" height="260" class="names-img">
+                            <div class="names-desc">
+                                <h3>Михаил Ермаков</h3>
+                                <p>UI Designer</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <!-- Подвал -->
+        <!--  delete-class - временный клас для тёмного бэкграунда на герое и в подвале, потом удалю) -->
+        <footer class="delete-class foot-padd">
+            <div class="container">
+                <a href="./index.html" class="navigation-logo link">
+                    <p class="foot-logo"><span class="logo">Web</span><span class="backlogo">Studio</span></p>
+                </a>
+                <address class="footaddress">
+                    <a href="https://goo.gl/maps/UZM62VKS9garVXZ96" class="address">г. Киев, пр-т Леси Украинки, 26</a>
+                    <p><a href="mailto:info@example.com" class="footcontacts">info@example.com</a></p>
+                    <p><a href="tel:+380991111111" class="footcontacts">+38 099 111 11 11</a></p>
+                </address>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
