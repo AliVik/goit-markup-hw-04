@@ -68,6 +68,30 @@ ul {
 .auth-list > .nav-item + .nav-item {
   margin-left: 50px;
 }
+
+.header-letter {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.header-letter:hover {
+  fill: red;
+}
+.header-tel:hover {
+  fill: red;
+}
+
+.contacts .header-tel {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: red;
+}
+.icon-flex {
+  display: flex;
+  align-items: center;
+}
 .navigation {
   font-weight: 500;
   font-size: 14px;
