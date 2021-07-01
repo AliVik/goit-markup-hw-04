@@ -73,20 +73,19 @@ ul {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  fill: currentColor;
 }
-
 .header-letter:hover {
-  fill: red;
+  fill: currentColor;
 }
-.header-tel:hover {
-  fill: red;
-}
-
-.contacts .header-tel {
+.header-tel {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  fill: red;
+  fill: currentColor;
+}
+.header-tel:hover {
+  fill: currentColor;
 }
 .icon-flex {
   display: flex;
