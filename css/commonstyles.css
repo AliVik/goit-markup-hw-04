@@ -139,8 +139,10 @@ ul {
 .navigation-logo .foot-logo {
   margin-bottom: 20px;
 }
-.delete-class {
+.foot-padd {
   background-color: #2f303a;
+  max-width: 1600px;
+  max-height: 252px;
 }
 .footaddress {
   font-size: 14px;
@@ -184,7 +186,7 @@ ul {
 .footer-flex {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: baseline;
 }
 .join {
   display: flex;
@@ -196,7 +198,6 @@ ul {
 }
 .footer-icons {
   display: flex;
-  align-self: flex-start;
 }
 .footer-icons-bg {
   width: 44px;
