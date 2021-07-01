@@ -154,6 +154,32 @@
 .social-icons-item:hover {
   fill: var(--main-white-color);
 }
+
+/* Постоянные клиенты */
+.regular-customers {
+  display: flex;
+  justify-content: center;
+}
+.regular-customers-box {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  fill: #afb1b8;
+}
+.regular-customers-box:hover {
+  border: 1px solid var(--extra-color);
+  fill: var(--extra-color);
+}
+.regular-customers-box + .regular-customers-box {
+  margin-left: 30px;
+}
+.regular-custumers-items {
+  width: 106px;
+  height: 60px;
+  align-self: center;
+  margin: 0 auto;
+}
 /* Стили страницы Портфолио */
 
 /* Шапка */
