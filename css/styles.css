@@ -124,11 +124,15 @@
   align-content: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: var(--main-white-color);
 }
 .social-icons {
   display: flex;
   justify-content: center;
+  align-content: center;
   margin-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 .social-icons-bg {
   display: flex;
@@ -137,10 +141,12 @@
   border-radius: 50%;
   fill: #afb1b8;
 }
-.social-icons-bg:hover {
+.social-icons-bg:hover,
+.social-icons-bg:focus {
   background-color: var(--extra-color);
   fill: var(--main-white-color);
 }
+
 .social-icons-bg + .social-icons-bg {
   margin-left: 10px;
 }
@@ -194,7 +200,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  background-color: var(--buttons-color);
+  background-color: var(--secondary-color);
   cursor: pointer;
   color: var(--main-text-color);
   font-family: inherit;
