@@ -198,12 +198,20 @@ ul {
 }
 .footer-icons {
   display: flex;
+  margin-top: 20px;
 }
 .footer-icons-bg {
-  width: 44px;
-  height: 44px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  margin-top: 20px;
+
+  fill: var(--main-white-color);
+}
+.footer-icons-bg:hover,
+.footer-icons-bg:focus {
+  background-color: var(--extra-color);
   fill: var(--main-white-color);
 }
